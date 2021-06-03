@@ -58,15 +58,15 @@ text-shadow: 2px 2px 2px #704c00;
   margin: auto;
 }
 
-@media (max-device-width: 640px) and (orientation: landscape) {
+@media (max-height: 300px) {
 
                      .container {
-                       width: 400px;
+                       height: 300px;
                      }
                      .nappula {
-                       width: 400px;
+                       height: 300px;
                      }
                      .pelilauta {
-                       width: 400px;
+                       height: 300px;
                      }
 }
