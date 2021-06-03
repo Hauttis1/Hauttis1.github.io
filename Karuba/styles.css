@@ -60,15 +60,5 @@ text-shadow: 2px 2px 2px #704c00;
 
 @media (max-width: 8200px) and orientation: landscape) {
                      .container {
-                       height: 100vh;
-                       max-width: 75%;
-                     }
-                     .nappula {
-                       height: 100vh;
-                       max-width: 75%;
-                     }
-                     .pelilauta {
-                       height: 100vh;
-                       max-width: 75%;
-                     }
+                       margin: auto 60%;
 }
