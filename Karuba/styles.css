@@ -65,12 +65,12 @@ orientation : landscape
                    and (orientation: landscape) {
 
                      .container {
-                       height: 640px;
+                       width: 640px;
                      }
                      .nappula {
-                       height: 640px;
+                       width: 640px;
                      }
                      .pelilauta {
-                       height: 640px;
+                       width: 640px;
                      }
 }
