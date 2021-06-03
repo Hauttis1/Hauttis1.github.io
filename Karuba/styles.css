@@ -59,6 +59,6 @@ text-shadow: 2px 2px 2px #704c00;
 }
 
 @media (max-width: 8200px) and orientation: landscape) {
-                     .container {
-                       margin: auto 60%;
+                     body {
+                     margin: auto 60%;
 }
