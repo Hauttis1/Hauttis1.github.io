@@ -58,7 +58,7 @@ text-shadow: 2px 2px 2px #704c00;
   margin: auto;
 }
 
-@media (max-height: 1200px) and (orientation: landscape) {
+@media (max-height: 1200px) {
                      .container {
                        height: 100vh;
                        width: auto;
