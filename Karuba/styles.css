@@ -58,15 +58,15 @@ text-shadow: 2px 2px 2px #704c00;
   margin: auto;
 }
 
-@media (max-height: 600px) {
+@media (max-height: 800px) {
 
                      .container {
-                       height: 300px;
+                       height: 800px;
                      }
                      .nappula {
-                       height: 300px;
+                       height: 800px;
                      }
                      .pelilauta {
-                       height: 300px;
+                       height: 800px;
                      }
 }
