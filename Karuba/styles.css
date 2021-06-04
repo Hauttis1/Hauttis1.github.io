@@ -1,11 +1,14 @@
 body {
   text-align: center;
+  background-image: url("bg-landscape.png");
+  background-size: 100% auto;
 }
 
 .container {
   position: relative;
   margin: auto;
   height: 100vh;
+  bottom: 0;
 }
 
 .vari {
@@ -24,18 +27,41 @@ body {
 
 .invisible {
   visibility: hidden;
-  opacity: 0;
+}
+
+.button {
+  background-color: #107200;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 0 3px black;
+}
+
+.button:hover {
+  background-color: #148d00;
 }
 
 .refresh {
-  font-size: 1.5rem;
-  font-weight: normal;
+  font-size: 0.75em;
+  font-weight: bold;
   color: white;
   text-decoration: none;
+  text-shadow: 0 2px 2px black;
+}
+
+.refresh:hover {
+  text-shadow: 0 0 1px white;
 }
 
 .sininen {
-text-shadow: 2px 2px 2px #009ee0
+text-shadow: 2px 2px 2px #009ee0;
 }
 
 .oranssi {
@@ -52,24 +78,30 @@ text-shadow: 2px 2px 2px #704c00;
 
 .nappula {
   position: absolute;
-  height: 100vh;;
+  height: 90vh;
   margin: auto;
   z-index: 1;
+  top: 50px;
 }
 
 .pelilauta {
   position: relative;
-  height: 100vh;;
+  height: 90vh;
   margin: auto;
+  top: 50px;
 }
 
 @media (max-width: 1200px) {
   .refresh {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (orientation: portrait) {
+  body {
+    background-image: url("bg-portrait.png");
+    background-size: auto 100vh;
+  }
   .container {
     height: auto;
     max-width: 100%;
@@ -82,5 +114,9 @@ text-shadow: 2px 2px 2px #704c00;
     .pelilauta {
       height: auto;
       max-width: 100%;
+    }
+
+    .vari {
+      top: 50%;
     }
 }

@@ -54,11 +54,16 @@ var ruskea2 = ruskeaNumero2;
 
 // MAALI - Sininen
 
+while (sininen2 === 1 && sininen1 === 1 || sininen2 === 11 && sininen1 === 11) {
+    sininenNumero2 = Math.floor(Math.random()*11+1);
+    sininen2 = sininenNumero2;
+}
+
 var sininenMaali = "sininen-maali" + sininen2 + ".png";
 
 // MAALI - Oranssi
 
-while (oranssi2 === sininen2) {
+while (oranssi2 === sininen2 || oranssi2 === 1 && oranssi1 === 1 || oranssi2 === 11 && oranssi1 === 11) {
     oranssiNumero2 = Math.floor(Math.random()*11+1);
     oranssi2 = oranssiNumero2;
 }
@@ -67,7 +72,7 @@ var oranssiMaali = "oranssi-maali" + oranssi2 + ".png";
 
 // MAALI - Violetti
 
-while (violetti2 === oranssi2 || violetti2 === sininen2) {
+while (violetti2 === oranssi2 || violetti2 === sininen2 || violetti2 === 1 && violetti1 === 1 || violetti2 === 11 && violetti1 === 11) {
     violettiNumero2 = Math.floor(Math.random()*11+1);
     violetti2 = violettiNumero2;
 }
@@ -76,7 +81,7 @@ var violettiMaali = "violetti-maali" + violetti2 + ".png";
 
 // MAALI - Ruskea
 
-while (ruskea2 === oranssi2 || ruskea2 === sininen2 || ruskea2 === violetti2) {
+while (ruskea2 === oranssi2 || ruskea2 === sininen2 || ruskea2 === violetti2 || ruskea2 === 1 && ruskea1 === 1 || ruskea2 === 11 && ruskea1 === 11) {
     ruskeaNumero2 = Math.floor(Math.random()*11+1);
     ruskea2 = ruskeaNumero2;
 }
