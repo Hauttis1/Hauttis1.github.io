@@ -1,3 +1,5 @@
+function karuba() {
+
 var sininenNumero1 = Math.floor(Math.random()*11+1);
 var sininenNumero2 = Math.floor(Math.random()*11+1);
 var oranssiNumero1 = Math.floor(Math.random()*11+1);
@@ -112,3 +114,5 @@ document.querySelector(".sininen").innerHTML = sinisetNumerot;
 document.querySelector(".oranssi").innerHTML = oranssitNumerot;
 document.querySelector(".violetti").innerHTML = violetitNumerot;
 document.querySelector(".ruskea").innerHTML = ruskeatNumerot;
+
+}

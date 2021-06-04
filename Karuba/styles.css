@@ -42,21 +42,13 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   box-shadow: 0 0 3px black;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-shadow: 0 2px 2px black;
 }
 
 .button:hover {
   background-color: #148d00;
-}
-
-.refresh {
-  font-size: 0.75em;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  text-shadow: 0 2px 2px black;
-}
-
-.refresh:hover {
   text-shadow: 0 0 1px white;
 }
 
