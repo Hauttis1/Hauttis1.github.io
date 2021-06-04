@@ -8,7 +8,7 @@ body {
   position: relative;
   margin: auto;
   height: 100vh;
-  bottom: 25px;
+  bottom: 50px;
 }
 
 .vari {
@@ -89,7 +89,7 @@ text-shadow: 2px 2px 2px #704c00;
   height: 90vh;
   margin: auto;
   top: 50px;
-  bottom: 25px;
+  bottom: 50px;
 }
 
 @media (max-width: 1200px) {
