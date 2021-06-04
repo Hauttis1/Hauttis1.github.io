@@ -17,13 +17,17 @@ body {
   text-align: left;
   z-index: 2;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 45%;
   transform: translate(-50%, -50%);
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .refresh {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: normal;
   color: white;
   text-decoration: none;
@@ -56,6 +60,12 @@ text-shadow: 2px 2px 2px #704c00;
   position: relative;
   height: 100vh;;
   margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .refresh {
+    font-size: 2.5rem;
+  }
 }
 
 @media (orientation: portrait) {
