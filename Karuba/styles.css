@@ -120,4 +120,8 @@ text-shadow: 2px 2px 2px #704c00;
     .vari {
       top: 55%;
     }
+  
+    .refresh {
+      font-size: 1.5rem;
+    }
 }
